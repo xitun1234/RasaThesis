@@ -1,0 +1,37 @@
+{
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "description": "Scrape data from ecommerce sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PKurt",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.672.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.21.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "extract-zip": "^1.6.7",
+    "image-downloader": "^3.5.0",
+    "jade-bootstrap": "^1.0.14",
+    "jest": "^26.0.1",
+    "json-find": "^2.0.7",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "pug": "^2.0.4",
+    "puppeteer": "^1.19.0",
+    "request": "^2.88.2",
+    "s3-upload-stream": "^1.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
